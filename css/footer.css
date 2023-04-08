@@ -1,0 +1,95 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-footer);
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    
+}
+
+.footer__social {
+    display: flex;
+    padding: 1rem;
+}
+
+.footer__midia {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: .5rem 1rem;
+}
+
+.footer__navegacion {
+    color: var(--background-blanco);
+    text-align: center;
+    line-height: 3;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', serif;
+    width: 85vw;
+        text-align: center;
+
+}
+
+
+
+.footer__logo{
+    height: 4rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer__navegacion {
+        text-align: left;
+        min-width: 600px;
+    }
+}
+
+
+/* Estilos para la lista de redes sociales */
+.footer__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/* Estilos para cada icono de redes sociales */
+.footer__midia {
+    display: block;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Estilos al pasar el mouse por encima de cada icono de redes sociales */
+.footer__midia:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Estilos para cada enlace de la navegación */
+.footer__enlace {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer__enlace a {
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estilos al pasar el mouse por encima de cada enlace de la navegación */
+.footer__enlace:hover a {
+    color: #6B5B95;
+    transform: translateY(-5px);
+}

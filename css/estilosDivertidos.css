@@ -1,0 +1,137 @@
+/* Estilos para los botones */
+.llamada__boton,
+.destacados_boton {
+    background-color: #FFB6C1;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #FF69B4;
+    transition: all 0.3s ease;
+    margin-top: .8rem;
+}
+
+/* Estilos para el hover de los botones */
+.llamada__boton:hover,
+.destacados_boton:hover {
+    background-color: #FF69B4;
+    box-shadow: 0 8px 0 #FF1493;
+    transform: translateY(-3px);
+}
+
+/* Estilos para el active de los botones */
+.llamada__boton:active,
+.destacados_boton:active {
+    background-color: #FF1493;
+    box-shadow: none;
+    transform: translateY(0px);
+}
+
+/* Estilos para el hover de los enlaces de navegación */
+.head__enlace a:hover {
+    color: #FF69B4;
+    text-decoration: underline;
+}
+
+/* Estilos para la sección de planes */
+.planes__titulo {
+    color: #ff4f4f;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.planes__descripcion {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.planes__lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.planes__item {
+    width: 30%;
+    border: 1px solid #ff4f4f;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.planes__item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(255, 79, 79, 0.3);
+}
+
+.planes__titulo-plan {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.planes__precio {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.planes__caracteristicas {
+    font-size: 1rem;
+    margin-top: auto;
+}
+
+.planes__boton {
+    background-color: #ff4f4f;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.planes__boton:hover {
+    background-color: #ff1e1e;
+}
+
+/* Estilos para la sección de contacto */
+.contacto__titulo {
+    color: #4f4fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contacto__descripcion {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contacto__boton {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.contacto__boton:hover {
+  background-color: #0062cc;
+}
+
+
+

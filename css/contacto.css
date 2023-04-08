@@ -1,0 +1,35 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contacto__titulo {
+    color: var(--fuente-ceniza-oscuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.25rem;
+}
+
+.contacto__boton {
+    color: var(--boton-rojo);
+    font-family: var(--montserrat);
+    border-color: var(--boton-rojo);
+    padding: 1rem;
+    margin-top: 1.25rem;
+}
+
+.contacto__texto{
+   font-family: var( --open-sans);
+   font-weight: 400;
+   color: var(--fuente-ceniza-oscuro);
+}
