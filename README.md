@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Proyecto Apeperia
 
-Archivos iniciales del proyecto para Apeperia del curso "Layouts Responsivos: Trabajando con layouts mobile", de Alura LATAM.
+Archivos del proyecto para Nobu  "Layouts Responsivos: Trabajando con layouts mobile"
 =======
 # Layout-Responsive
 Proyecto creado siguiendo las medidas relativas 
